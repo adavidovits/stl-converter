@@ -3,7 +3,7 @@ rm -rf output/
 echo "Output cleared."
 
 
-## xargs for an easy way to trim the output
+#variable array of all files that match file extension stl
 inputFiles=(`find input/* -name "*.stl" -type f`)
 
 echo "Starting to parse (${#inputFiles[@]}) files..."
